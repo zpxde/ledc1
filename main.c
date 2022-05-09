@@ -96,6 +96,7 @@ void delay_short(volatile unsigned int n)
 {
 	while(n--){}
 }
+//
 
 /*
  * @description	: 延时函数,在396Mhz的主频下
